@@ -1,0 +1,32 @@
+
+# LINKING FILES
+
+this challenge teaches you about ln -s command which helps u to create a symbolic link between
+two files.
+
+
+# MY FLAG
+
+My flag~ pwn.college{Ypig0DYy5APvnpH2IUgCU_HxjYu.QX5ETN1wCN0AzNzEzW}
+
+
+
+# SOLUTION 
+
+```
+hacker@commands~linking-files:~$ /challenge/catflag
+About to read out the /home/hacker/not-the-flag file!
+cat: /home/hacker/not-the-flag: No such file or directory
+hacker@commands~linking-files:~$ ln -s /flag /home/hacker/not-the-flag
+hacker@commands~linking-files:~$ /challenge/catflag
+About to read out the /home/hacker/not-the-flag file!
+pwn.college{Ypig0DYy5APvnpH2IUgCU_HxjYu.QX5ETN1wCN0AzNzEzW}
+hacker@commands~linking-files:~$
+
+```
+
+
+# WHAT I LEARNT.
+
+A soft link is a special type of file that acts as a pointer or a shortcut to another file or directory.
+You can use the command ln -s to create a soft link between two files.
