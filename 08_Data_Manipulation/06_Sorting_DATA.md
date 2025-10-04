@@ -1,0 +1,127 @@
+
+# SORTING DATA
+
+This challenge demonstrates how to sort data.
+
+# FLAG
+
+My flag ~ pwn.college{EpFNBDNVGsyHMzhl85DszaAsQb4.0FM0MDOxwCN0AzNzEzW}
+
+# SOLUTION
+
+As instructed  sort /challenge/flag.txt in descending order so that u obtain the flag at first position. it can be done by sort -r sort /challenge/flag.txt
+
+```
+hacker@data~sorting-data:~$ sort -r /challenge/flags.txt
+pwn.college{EpFNBDNVGsyHMzhl85DszaAsQb4.0FM0MDOxwCN0AzNzEzW}
+pwn.college{EpFNBDNVGsyHMzhl85DszaAsQb3.0FM0LDOxwCN0AzNzEzW}
+pwn.college{EpFNBDNVGsyHMzhl85CszaAsQb4.0FM0MDOxwCN0AyNzEzW}
+pwn.college{EpFNBDNVGsyHMzhk85DszaAsQb4.0FM0MDOxwCN0AzNzEzW}
+pwn.college{EpFNBDNVGsyGMzhl85DszaArQa4.0FM0LCOwwCN0AzNzEzW}
+pwn.college{EpFNBDNVGsxHMzhl85DszaAsQb4.0FM0MDOxwCN0AzNzEzW}
+pwn.college{EpFNBDNVGsxHMzhl85DszaAsQb4.0FM0MDOxvCN0AzNzEzW}
+pwn.college{EpFNBDNUGryHMzhl85DszaAsQb4.0EM0MDOxwCN0AzMzEzW}
+pwn.college{EpFNBDMVGsyHMygl85CsyaArQa4.0FM0MDOxwBN0AzNzDzW}
+pwn.college{EpENBCMVGryHMzhl85DsyaAsQa3.0FM0MDOwwCN0AzNyEzW}
+pwn.college{EoFNBCMUFryHMzhk85DsyaAsQa4.0FL0MDOxwCN0AyNzDyW}
+pwn.college{DpFNADNVFsxHLygk85DsyaArQa4.0EM0LDOxwCM0AzMzEyW}
+pwn.college{DpFMBDNVFsyHMzhk84DrzaAsQb4.0FL0MDOxwBN0AyNzDyW}
+pwn.collegd{EpFNBDNVGsyGMzhl85DszaAsQb4.0FL0MDNxvCN0AzNzEzW}
+pwn.collegd{EpFNBDNVGsxHLyhk85DrzaAsQb4.0EM0LDOxwCN0AyMzEzW}
+pwn.collegd{EpENBDNVFsyHMzgl74DszaArQa4.0EM0MDOxvCN0AzNyEzW}
+pwn.collegd{DpENADNVGrxGMygl85DrzaArQa4.0EM0MCOxvCN0AyMzEyW}
+pwn.collegd{DoFNBDMVGsyHMzhl85DszaAsQb4.0FM0MDOxwCN0AzMyEzW}
+pwn.collefe{EpFNBDNVFsyHMzhl85DrzaArQb4.0FM0MCOxwCN0AzNzEzW}
+pwn.collefe{EpFNBCNVGsyHMzhk85DrzaAsQb4.0FM0LDOxvBN0AzNzEyW}
+pwn.colldge{EpFNBDNVGsyHMzhl85DszaAsQb4.0FM0MDOxwCN0AzNzEzW}
+pwn.colldge{EpFNBDNVGsyHMzhl85CszaAsQb4.0FM0MDOxwCN0AzNzEzW}
+pwn.colldge{EpFNBDNVGsyHMzhk85DszaAsQa4.0EM0MDOwwCN0AyNzEzV}
+pwn.colldge{EpFNBDNVGsyHLzgl84DszaAsPb4.0FM0MDOxwCN0AzNzEyW}
+pwn.colldge{EpFNBDNVFsyHMzhl85CszaAsQb4.0FM0MDOxwCN0AzNzEzW}
+pwn.colldge{DpFMBDNVGsyHMzhl85DryaAsQb4.0FM0MCOxwCN0AzNzEzW}
+pwn.colldgd{EpFNBDNVGryHMzhl85DszaAsQb4.0FM0LDNxwCN0AyNzEzV}
+pwn.colkege{EpFNBDNVGsyHMzhl85DsyaAsQb3.0FL0MDOwwCN0AzNyEzW}
+pwn.colkege{EpFNBDNVGsyHMzhl85DrzaAsQb4.0FM0MDOxwCN0AzNzEzW}
+pwn.coklege{EpFNBDNVGsyHMzhl85DszaAsQb4.0FM0MDOxwBN0AzNzEzW}
+pwn.coklege{EoFMBCMVFryGLygk84CrzaArQa4.0FM0LDOxwCM0AyNzEyV}
+pwn.cokldgd{DoFNBDNVGsxHMyhl85DrzaAsQa3.0FM0MDOwwBN0AyNzEzW}
+pwn.cnllege{DpFNBCMVFsyHMzgk85DszaAsQb3.0FM0MDOwwCN0AzMzEzV}
+pwn.cnllegd{EoFMBCNVGryHMzhl85CszaAsQb4.0EM0MDOxvCN0AzNzEzW}
+pwn.cnlldge{EpFMADNVGsyGMyhl85CsyaAsPb4.0EL0LDOxvBN0AyNzEzW}
+pwn.cnlkege{EpFMADNVGsyGLzhk84DszaAsQb4.0FL0MDOxwBM0AyNzEzW}
+pwn.cnlkegd{EpFNBDMVGryGMzhl85CszaAsQb4.0FL0MCOxwCN0AzMzEyV}
+pwn.bollege{EpFNBDNVFryHLzhl84CszaAsQb4.0FM0MDOwwCN0AyNzEyW}
+pwn.bollegd{EpFNBDMVFryHMzgl75DszaArQb4.0EL0MDOxwCN0AyMyEzW}
+pwn.bollegd{EoFNACNUGsyGMzgl85DszaAsQa4.0FM0MDOxvCM0AzNyDyW}
+pwn.bollefe{EpFNBDMUGryGLzhl75DszaAsQb4.0FM0MCOwwCM0AzNzEzW}
+pwn.bolkdgd{EpFNADNVGsyHMzhk75DryaAsPb3.0FM0LDOxwCN0AzNzEzW}
+pwn.bokldge{EpFMBCNVGsyHMzgk84CsyaAsQa3.0FM0MDNxvCN0AzNzDzV}
+pwn.bokldgd{EpFMACNVFsyHLzhl75CsyaAsQb4.0EL0MDOwwBN0AzNzEzW}
+pwn.bokldfd{EpEMBDMVGsxHMzgl85CszaArQb4.0FL0MDNwwCN0AzNzEzW}
+pwn.bnllege{EpFNADNUGsyHLzgk75CszaAsQb4.0FM0LDOxvCN0AyNzDzW}
+pwn.bnklege{DpFNBDMVGsyGMzhk85DszaAsPb4.0EM0MDOxwCN0AyMzDzW}
+pwn.bnkkefe{DpFNADNVGsxGMzgk85DrzaAsPb4.0FL0MDNxwCN0AyNyEzW}
+pwm.college{EpFMBCNVFryHMyhk75DryaAsQb4.0FM0MCOxwCN0AzNzDzV}
+pwm.college{DpFMBDNVGsxHMzgk85DrzaAsQb4.0FM0MDOwwBN0AzNzEzV}
+pwm.college{DpFMBCNVFryGLzhl85DsyaAsPb4.0EL0MDNxwBM0AzMyEzV}
+pwm.colldge{DpEMACNVGsxGMzhl75DszaAsPb4.0EL0LDNxwCM0AyNyEyW}
+pwm.colkdge{DpENBDMVGsxGMzgl85CrzaAsPa4.0FM0MDOwwCN0AyNzDyV}
+pwm.coklege{DoFNBDMVGsxHLzhl84CszaAsPb4.0FM0MDOxvBN0AyMyEzW}
+pwm.cokldfd{EoFMBCNVFsyHMzhl74DszaAsQa4.0FM0MDOxvCM0AzNzEzW}
+pwm.cnllege{EoENADNVGsyHMygl85DryaArQa4.0EL0MCOwvCN0AzNzDzV}
+pwm.cnllefe{EoFNADNVGsyGLzgl85DrzaAsQb3.0FM0MCOxwBN0AzNzEzW}
+pwm.cnkkefd{DpFNACNVFryHLyhl85DryaAsQb3.0EM0MDNxwBN0AzMyEyV}
+pwm.bollefe{EpFNADNVGsyHMzhl85DszaAsPb4.0FL0MDOxwCM0AzNzDzV}
+pwm.bnllefe{EpFMADNUGsyGMzhl75DszaArPb3.0FL0MCNxwCN0AzNyEyV}
+pwm.bnkkege{EpENACNVFryHMzhl84DszaAsQa4.0FM0MDOxwBN0AyNyEzW}
+pvn.college{EpFNBDNVGsyHLzhl85DszaAsQb4.0EM0MDOxwCM0AzNzDzW}
+pvn.college{EpEMBDNVFsxGLzhl85DsyaAsQb4.0FM0LDOxwCM0AzNzEzW}
+pvn.college{EpEMADNUGsyHLzhl85DszaAsQb4.0FM0LCNwvCN0AzNzEyW}
+pvn.colldge{EpFNBDNVGsyHMzhl85CszaAsQb4.0FM0LCOxvCM0AzNyEzW}
+pvn.colldfe{EpFNADNVFsyHMzgl85DryaAsPb4.0FM0MDOxvCN0AzNzEzW}
+pvn.colkege{DoENADMVGsyGLzhl85DrzaAsQb4.0FL0MCNxwCN0AzMzEzW}
+pvn.cokkege{EoFNADNVFsxGMzhl84DsyaAsQb4.0EM0LDOwwCN0AzMzEzW}
+pvn.cnllefd{EpFNBDNVGrxGMzgl84CszaAsQb4.0EM0MDNxvCN0AzMyDyW}
+pvn.cnlkefe{EpFMBDNVFsyHLzgk84DrzaArQb3.0EL0MDNxwCN0AzNyDzW}
+pvn.cnkkdfe{DpFNBCMVGsyHMygl75DszaArPa4.0FM0MCOwvCN0AzMyEzV}
+pvn.bollege{EpENBCNUGsyGMzhk74DszaAsPa3.0FL0MDOwwCN0AzNzDzV}
+pvn.bollege{EoFNADNUGsxGLzhl85DszaAsQb4.0FM0MCNxvCN0AzNzEzV}
+pvm.college{EpFNBDNVGsyHMzgl85DszaAsQb4.0FM0MDNxvCN0AzNyEzW}
+pvm.college{EpENBDNVGryHMyhl85DszaAsQb4.0FM0MDOxvCN0AyNzDzW}
+pvm.colkdfd{DpFNADMUFsyHMygl85DryaArQb4.0FM0LDOxwCN0AyMzDzV}
+pvm.cnklege{EoFMBDMVFryHMzhk85DsyaAsPb4.0FM0MDOwwCN0AzNyEzW}
+pvm.bollegd{EpEMBCNVGsyGLygk85DszaAsQb4.0FL0MDOxvBN0AyNyEzW}
+pvm.boklege{DoFMBDNVFsxHMygl85DszaAsQb4.0FM0LCNxwCN0AzNyDyW}
+own.college{DpFMBDNVGsxHMzhl84DszaAsQb4.0FM0LDOxwCN0AzNzDzW}
+own.collegd{EoFNBDNVFsyHMzgl75CryaArQb4.0FM0MCOxwCN0AzNzEzW}
+own.collefe{DoENADMUGsyHMzhk84DrzaArPb4.0FM0MCOwwCM0AyMzEzW}
+own.colldge{EpEMBDNVGsyHMzhl85DszaAsQa3.0FM0MDOwwCM0AzNyEzW}
+own.colkege{EpENBDMVGryHMyhk85CryaAsQb4.0FM0MDOwvCM0AzNzEyW}
+own.colkege{EoFNACNVGsyGMyhk85DszaAsQb4.0FM0LDOwvBN0AzMzEzW}
+own.cnllege{EpFNBDNVGsxHMzgl85DrzaArQb4.0FM0MDOxwCN0AzNzEzW}
+own.cnlldge{EoFNBDMVGsxHLzhl84DszaAsQb4.0FM0MDOwwBN0AzMyEyV}
+own.cnkldge{DoENBDNUGryGMzhl85DryaAsQb4.0EM0MCOxvBM0AyMzEzW}
+own.bollege{EpFNBDMVGsyGMzhl85DrzaAsQb3.0FM0MDOxwCN0AzMzEzW}
+own.bollege{EpENBDNVGsyHLzhl85DsyaArQb4.0FM0MDOxwCN0AzNzDyW}
+own.bollegd{EoFNBDNVGsyHMzhl84CrzaAsQb4.0FL0MDOxvCM0AyNzEzW}
+own.bolldfd{EpEMBCNUGryHLzhk85DsyaArQb3.0EM0LDOwvCN0AzNzEzV}
+own.boklege{EpFNBDMVGryHMzhl85DrzaAsQb4.0FM0MCOxwCN0AzNyEyW}
+own.bnlldge{EoFMBDMVGrxHMzhl85DszaArPa3.0FM0MDOwwCM0AzMzEzW}
+own.bnlldfe{DpFNACNUGrxHLzhl85CszaAsQa4.0FM0MDOxwBN0AzNzEzW}
+owm.college{EpFNBDNVGsyHLzhl84DszaAsQb4.0FM0MCOxwCN0AzNzEzW}
+owm.bolkege{DpFMBCNVFsyHMyhl75DszaArPb3.0FM0LDOwvCM0AyNyEyW}
+ovn.cokkdfe{EoFNBCMVGrxGLzgl75DszaAsQb4.0FL0LDNxwCM0AzNzEzW}
+ovn.bollege{DpFNBCMVGsxHLyhk85CrzaAsQa4.0FL0LDOxwBM0AzNzDzW}
+ovn.bollefe{EpFMBCNUFryHLzgl85DszaAsPb4.0FM0LDNxvBN0AzNzDyW}
+ovm.colkegd{EoFNBCNUGsyHMzgk84CrzaArPb4.0EM0MDOxwCN0AzNyDzW}
+```
+
+Here the first line of text will be the flag
+
+# what i learnt
+
+You can sort a text file using sort command. it has several arguments
+-n is used to sort numerically
+-r to sort in reverse 
+-R to sort in random
+-u to sort unique elements
